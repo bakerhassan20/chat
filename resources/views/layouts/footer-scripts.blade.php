@@ -31,3 +31,16 @@
 <!-- custom js -->
 <script src="{{URL::asset('assets/js/custom.js')}}"></script><!-- Left-menu js-->
 <script src="{{URL::asset('assets/plugins/side-menu/sidemenu.js')}}"></script>
+
+<script>
+
+
+    function scrollDown() {
+         document.getElementById('chat').scrollTop =  document.getElementById('chat').scrollHeight
+        }
+        setInterval(scrollDown, 10);
+
+
+</script>
+
+
